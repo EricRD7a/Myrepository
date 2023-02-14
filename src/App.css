@@ -1,38 +1,186 @@
 .App {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 750px;
+    background: linear-gradient(90deg, #2274A5 0%, #459ACD 50%);
+    justify-content: center;
+    border-width: 0 100vw 100px 0;
+    transform: skewY(-3deg);
+    margin-top: -150px;
+}
+
+
+
+
+
+.Main{
+  
+    background-color: #fff;
+    width: 420px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px #3589bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 800px;
+    transform: skewY(3deg);
+}
+  
+
+  
+
+
+
+
+.Title{
+  background-color:white;
+  width: 300px;
+  height: 50px;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color:#525f7f;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.InputEmail{
+  background-color: white;
+  width: 438px;
+  height: 20px;
+ 
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-left: 10px;
+    
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ 
+}
+.InputPassword{ 
+  background-color:white;
+  width: 438px;
+  height: 20px;
+ 
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-left: 10px;
+  
   }
+.InputButton{ 
+  background-color: #459ACD;
+  width: 120px;
+  height: 42px;
+  border-radius: 0.25rem;
+  border-color: #11cdef;
+  align-items:initial;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.625rem 1.25rem;
+  margin-inline-start: 85px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.InputButton2{ 
+  background-color: #459ACD;
+  width: 87px;
+  height: 42px;
+  border-radius: 0.25rem;
+  border-color: #11cdef;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+
+  padding: 0.625rem 1.25rem;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.InputButton:hover {
+  transform: scale(1.1);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.InputButton2:hover {
+  transform: scale(1.1);
+}
+
+  .ContetInputEmail{
+    width: 300px;
+    height: 42px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     border-radius: 5px ;
+     box-shadow: 1px 1px 1px 2px #d6dade;
+     box-sizing: border-box;
+     padding-left:10px;
+     
+  
+    
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+
+  .ContetInputPassword{
+    width: 300px;
+    height: 42px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     border-radius: 5px ;
+     box-shadow: 1px 1px 1px 2px #d6dade;
+     box-sizing: border-box;
+     padding-left:10px;
+     margin-bottom: 50px;
+     margin-top: 25px;
+  
   }
-}
+
+  .Button{
+    display:inline-block;
+    align-items: flex-end;
+    margin: 0 15px;
+   
+
+  }
+
+
+  .teste{
+    background: red;
+    width: 300px;
+    height: 10000x;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+   
+   justify-content: center;
+  }
+
+  .alert{
+   
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    color:red;
+    
+
+  }
+
+
